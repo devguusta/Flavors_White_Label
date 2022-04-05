@@ -1,0 +1,5 @@
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main_magalu_dev.dart
+ASSET_PREFIX=magalu_dev
+BUNDLE_NAME=Magalu App Dev

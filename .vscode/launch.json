@@ -1,0 +1,52 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Magalu-Dev",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_magalu_dev.dart",
+                "--flavor",
+                "magalu_dev"
+            ]
+        },
+        {
+            "name": "Magalu-Prod",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_magalu_prod.dart",
+                "--flavor",
+                "magalu_prod"
+            ]
+        },
+        {
+            "name": "Americanas-Dev",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_americanas_dev.dart",
+                "--flavor",
+                "americanas_dev"
+            ]
+        },
+        {
+            "name": "Americanas-Prod",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-t",
+                "lib/main_americanas_prod.dart",
+                "--flavor",
+                "americanas_prod"
+            ]
+        },
+    ]
+}
