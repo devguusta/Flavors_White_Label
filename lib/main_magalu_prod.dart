@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
-import 'app.dart';
+import 'package:white_label/build_flavor.dart';
+
 import 'flavors.dart';
 
 void main() {
-  F.appFlavor = Flavor.MAGALU_PROD;
-  runApp(App());
+  buildFlavor(Flavor.MAGALU_PROD);
 }

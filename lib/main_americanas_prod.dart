@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
-import 'app.dart';
+import 'package:white_label/build_flavor.dart';
+
 import 'flavors.dart';
 
 void main() {
-  F.appFlavor = Flavor.AMERICANAS_PROD;
-  runApp(App());
+  buildFlavor(Flavor.AMERICANAS_PROD);
 }
