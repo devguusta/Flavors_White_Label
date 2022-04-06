@@ -8,7 +8,7 @@ abstract class AppTextsStyles {
   );
 }
 
-class AppTextStylesMagaluProd extends AppTextsStyles {
+class AppTextStylesMagalu extends AppTextsStyles {
   static const TextStyle titleStyle = TextStyle(
     fontSize: 24,
     fontWeight: FontWeight.w600,
@@ -28,9 +28,9 @@ extension GetStyles on Flavor {
   TextStyle getStyle() {
     switch (this) {
       case Flavor.MAGALU_PROD:
-        return AppTextStylesMagaluProd.titleStyle;
+        return AppTextStylesMagalu.titleStyle;
       case Flavor.MAGALU_DEV:
-        return AppTextStylesMagaluProd.titleStyle;
+        return AppTextStylesMagalu.titleStyle;
 
       case Flavor.AMERICANAS_PROD:
         return AppTextStylesAmericanas.titleStyle;

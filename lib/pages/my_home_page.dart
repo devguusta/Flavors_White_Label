@@ -4,6 +4,8 @@ import 'package:white_label/styles/texts_example.dart';
 import '../flavors.dart';
 
 class MyHomePage extends StatelessWidget {
+  const MyHomePage({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

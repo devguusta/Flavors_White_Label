@@ -4,5 +4,5 @@ import 'package:white_label/flavors.dart';
 
 void buildFlavor(Flavor flavor) {
   F.appFlavor = flavor;
-  runApp(App());
+  runApp(const App());
 }

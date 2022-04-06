@@ -1,3 +1,5 @@
+// ignore_for_file: constant_identifier_names
+
 enum Flavor {
   MAGALU_DEV,
   MAGALU_PROD,
@@ -24,5 +26,4 @@ class F {
         return 'title';
     }
   }
-
 }
