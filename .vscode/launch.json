@@ -24,6 +24,7 @@
                 "lib/main_magalu_prod.dart",
                 "--flavor",
                 "magalu_prod"
+                
             ]
         },
         {
